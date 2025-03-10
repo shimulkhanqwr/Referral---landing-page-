@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212; /* Dark background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.binance { background: #f3ba2f; }
+.kucoin { background: #31a58b; }
+.mexc { background: #1d8eff; }
+.gateio { background: #e54848; }
+.bitget { background: #117cf1; }
+
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
